@@ -6,7 +6,6 @@ let assertEqual = function(actual, expected) {
   }
 };
 
-let output = [];
 
 let eqArrays = function(arrOne, arrTwo) {
   if (arrOne.length !== arrTwo.length) {
