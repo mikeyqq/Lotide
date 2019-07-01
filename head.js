@@ -6,13 +6,11 @@ let assertEqual = function(actual, expected) {
   }
 };
 
-assertEqual('Lighthouse', 'abc');
-assertEqual(1, 1);
-
 
 let head = function(valueOne = []) {
-  console.log(valueOne[0]);
+  return valueOne[0];
 };
 
-assertEqual(head());
-assertEqual(head([]), "Hello");
+assertEqual(head([]), undefined);
+assertEqual(head([5,6,7]), 5);
+assertEqual(head(["Hello", "Lighthouse", "Labs"]), "Hello");
