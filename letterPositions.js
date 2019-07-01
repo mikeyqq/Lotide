@@ -33,6 +33,9 @@ for(let i = 0; i < sentence.length; i++){
   return results;
 };
 
-assertArraysEqual(letterPositions("hello").e, [1]);
+module.exports = letterPositions;
+
+/*
+assertArraysEqual(letterPositions("hello").e, [1]);*/
 
 
