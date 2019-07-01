@@ -6,5 +6,6 @@ let assertEqual = function(actual, expected) {
   }
 };
 
-assertEqual('Lighthouse', 'abc');
-assertEqual(1, 1);
+
+module.exports = assertEqual;
+
